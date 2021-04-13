@@ -1,0 +1,24 @@
+age: Tuổi của người đó tính theo năm
+giới tính: Giới tính của một người (1 = nam, 0 = nữ)
+cp: kiểu đau ngực
+- Giá trị 0: không có triệu chứng
+- Giá trị 1: đau thắt ngực không điển hình
+- Giá trị 2: đau không đau thắt ngực
+- Giá trị 3: đau thắt ngực điển hình
+trestbps: Huyết áp lúc nghỉ của người đó (mm Hg khi nhập viện)
+chol: Phép đo cholesterol của người đó tính bằng mg / dl
+fbs: Đường huyết lúc đói của người đó (> 120 mg / dl, 1 = true; 0 = false)
+restecg: kết quả điện tâm đồ lúc nghỉ
+- Giá trị 0: hiển thị phì đại thất trái có thể hoặc xác định theo tiêu chuẩn của Estes
+- Giá trị 1: bình thường
+- Giá trị 2: có bất thường sóng ST-T (đảo ngược sóng T và / hoặc ST chênh lên hoặc trầm cảm> 0,05 mV )
+thalach: Nhịp tim tối đa của người đó đạt được
+exang: Đau thắt ngực do tập thể dục (1 = có; 0 = không)
+oldpeak: ST trầm cảm gây ra do tập thể dục liên quan đến nghỉ ngơi ('ST' liên quan đến các vị trí trên đồ thị ECG. Xem thêm tại đây)
+độ dốc: độ dốc của đoạn ST tập luyện đỉnh cao - 0: dốc xuống; 1: phẳng; 2: uploping
+0: xuống dốc ; 1: phẳng; 2: uploping
+ca: Số lượng tàu chính (0–3)
+thal: Rối loạn máu gọi là thalassemia Giá trị 0: NULL (bị loại khỏi bộ dữ liệu trước đó
+Giá trị 1: khuyết tật cố định (không có dòng máu chảy ở một số phần của tim)
+Giá trị 2: lưu lượng máu bình thường
+Giá trị 3: khuyết tật có thể đảo ngược (quan sát thấy dòng máu chảy nhưng nó không bình thường)
